@@ -323,6 +323,7 @@ div.contact-box-image{
     height: 590px;
 }
 
+/* Image of Contact box image */
 div.contact-box-image img{
     width: 100%;
     height: 590px;
@@ -330,10 +331,12 @@ div.contact-box-image img{
     transition: 1.2s ;
 }
 
+/* Zoom In Hide the Over Flow content */
 #zoom-in{
     overflow: hidden;
 } 
 
+/* Image Hover Setting */
 div.contact-box-image img:hover {
 	transform: scale(1.2);
 }
