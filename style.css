@@ -245,14 +245,21 @@ div.trail-button-box{
     text-align: center;
 }
 
-button.trail-button-bg{
+/* Plan Section Trail Button and Contact Section Talk to us Button */
+button.trail-button-bg, button.contact-button{
     width: 120px;
     height: 40px;
     border-style: none;
     box-sizing: border-box;
     padding: 10px;
-    background-image: url(assets/Button-bg/trial-button-bg.png); 
     border-radius: 6px;
+    color: white;
+    font-family: "SF-regular";
+    font-size: 17px;
+}
+
+button.trail-button-bg{
+    background-image: url(assets/Button-bg/trial-button-bg.png); 
 }
 
 button.trail-button-bg:hover{
@@ -260,9 +267,73 @@ button.trail-button-bg:hover{
     transition: 1.5s; 
 }
 
+/* Contact Section */
 
-button.trail-button-bg p{
+section.contact{
+    width: 100%;
+    height: 590px;
+    background-color: #11024B;
+}
+
+/* Contact Section Text Box */
+div.contact-text-box{
+    display: inline-block;
+    width: 49.7%;
+    height: 100%;
+    padding: 160px 140px 160px 90px ;
     color: white;
+    vertical-align: middle;
+}
+
+/* Contact Section Heading */
+
+.contact-heading, .contact-detail{
+    width: 80%;
+}
+
+.contact-heading{
+    font-family: "SF-bold";
+    font-size: 42px;
+    margin-bottom: 10px;
+    line-height: 44px;
+}
+
+.contact-detail{
     font-family: "SF-regular";
-    font-size: 1rem;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+button.contact-button{
+    background-color: #3531A9; 
+    color: white;
+}
+
+button.contact-button:hover{
+    background-color: #1A1780;
+    transition: 1.5s; 
+}
+
+/* Contact Section Image */
+
+div.contact-box-image{
+    display: inline-block;
+    vertical-align: middle;
+    width:  50%;
+    height: 590px;
+}
+
+div.contact-box-image img{
+    width: 100%;
+    height: 590px;
+    cursor: pointer;
+    transition: 1.2s ;
+}
+
+#zoom-in{
+    overflow: hidden;
+} 
+
+div.contact-box-image img:hover {
+	transform: scale(1.2);
 }
